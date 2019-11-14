@@ -27,7 +27,7 @@ while True:
     print 'Got connection from', addr                     
     # send a thank you message to the client.  
     command = c.recv(1024)
-    if command == 'Penis':
+    if command == 'TurnOn':
         print 'Turning LED on!'
         led.on()
         sleep(10)
