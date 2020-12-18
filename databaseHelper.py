@@ -1,6 +1,6 @@
 import mysql.connector
 
-cnx = mysql.connector.connect(user='Nash', password='coolclide', database='SecurityApplication')
+cnx = mysql.connector.connect(user='Nash', password='githubsafepasswordughhhhh', database='SecurityApplication')
 cursor = cnx.cursor()
 
 query = ('SELECT * FROM SecurityTrippable')
